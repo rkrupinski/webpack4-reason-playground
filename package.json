@@ -1,0 +1,11 @@
+{
+  "name": "webpack4-reason-playground",
+  "scripts": {
+    "start": "rm -rf ./build && bsb -make-world && webpack --mode production && node ./build/app.js"
+  },
+  "devDependencies": {
+    "bs-platform": "^2.2.1",
+    "webpack": "^4.0.0",
+    "webpack-cli": "^2.0.9"
+  }
+}
